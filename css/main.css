@@ -1,0 +1,775 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.no-scroll {
+    overflow: hidden;
+
+}
+.header {
+display: flex;
+/* justify-content: space-between; */
+align-items: center;
+height: 104px;
+/* padding-top: 35px;
+padding-bottom: 34px; */
+border-bottom: 1px solid #D4D4D4;
+padding-left: 34px;
+}
+.m__menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-grow: 1;
+}
+.logo {
+margin-right: 34px;
+}
+
+.line {
+    width: 1px;
+    background-color: #D4D4D4;
+    height: 100%;
+}
+.search__input {
+background-image: url('../img/header/search-icon.svg');
+background-repeat: no-repeat;
+border: none;
+padding-left: 38px;
+background-position: center left;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #A5A5A5;
+outline: none;
+margin-left: 34px;
+}
+
+.navigation {
+margin-right: 44px;
+margin-left: auto;
+}
+.link {
+text-decoration: none;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #363636;
+margin-right: 18px;
+}
+.link:last-child {
+    margin-right: 0;
+}
+.button__grup {
+    height: 100%;
+}
+.button {
+border: none;
+height: 100%;
+cursor: pointer;
+}
+.sign-up {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #fff;
+    color: #5671F6;
+    padding-right: 34px;
+    padding-left: 34px;
+    border-left: 1px solid #D4D4D4;
+}
+.login {
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+background-color: #5671F6;
+
+color: #FFFFFF;
+padding-left: 50px;
+padding-right: 50px;
+}
+/* .............END  HEADER.............. */
+.treiler {
+padding-top: 80px;
+padding-bottom: 80px;
+border-bottom: 1px solid #D4D4D4;
+}
+.container {
+max-width: 1130px;
+margin-left: auto;
+margin-right: auto;
+}
+.wrapper__treiler {
+display: flex;
+}
+.treiler__block {
+margin-right: 60px;
+display: flex;
+flex-direction: column;
+}
+.poster {
+    border-radius: 5px 5px 0px 0px;
+    width: 358px;
+}
+.treiler__video {
+background-color: #fff;
+border: 1px solid #D4D4D4;
+text-decoration: none;
+border-radius: 0px 0px 5px 5px;
+padding-top: 25px;
+padding-bottom: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+outline: none;
+
+
+}
+.treiler__play {
+/* vertical-align: middle; */
+margin-right: 14px;
+}
+.play__text-btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #5671F6;
+}
+.treiler__text {
+
+}
+.film__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+
+color: #363636;
+}
+.treiler__subtitle {
+    display: block;
+    margin: 0;
+    margin-bottom: 32px;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #A5A5A5;
+}
+.treiler__description {
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 514px;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #000000;
+}
+.about__film {
+display: flex;
+margin-bottom: 50px;
+}
+.left__side {
+margin-right: 40px;
+}
+.about__text {
+display: block;
+margin-bottom: 16px;
+}
+.about__text-bold {
+    display: inline-block;
+width: 100px;
+margin-right: 10px;
+vertical-align: top;
+
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+
+}
+.about__text-regular {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  
+    
+    color: #363636;
+}
+.right__side {
+
+}
+/* .................... */
+.raiting {
+display: flex;
+align-items: center;
+
+}
+.raiting__counter {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-right: 28px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    color: #5671F6;
+    border: 1px solid #5671F6;
+}
+.raiting__description {
+display: flex;
+flex-direction: column;
+}
+.raiting__title {
+margin: 0;
+margin-bottom: 12px;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+
+
+color: #363636;
+}
+.raiting__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    margin-bottom: 7px;
+    
+    color: #363636;
+}
+.raiting__bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #363636;
+}
+/* ........................................... */
+.cast {
+padding-top: 70px;
+padding-bottom: 100px;
+}
+.tabs {
+display: flex;
+align-items: center;
+margin-bottom: 60px;
+}
+.tabs__bold {
+    margin: 0;
+    margin-right: 30px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363636;
+}
+.tabs__regular {
+    margin: 0;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #A5A5A5;
+}
+.tabs__content {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.card {
+display: flex;
+align-items: center;
+flex-basis: 25%;
+margin-bottom: 35px;
+}
+.card-foto {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+object-fit: cover;
+margin-right: 20px;
+}
+.card-text {
+
+}
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+    margin-bottom: 6px;
+   
+    
+    color: #5671F6;
+}
+.an-name {
+    margin: 0;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #A5A5A5;
+}
+/* .......................................... */
+.news {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background: #F3F3F3;
+}
+.news__title {
+    font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+margin: 0;
+margin-bottom: 65px;
+}
+.news__cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.news-card {
+    background: #FFFFFF;
+    border-radius: 5px;
+    flex-basis: 23%;
+    padding: 30px;
+}
+.date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+    margin: 0;
+    margin-bottom: 14px;
+}
+.news-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+/* ........................................................................... */
+.mobile__buttons {
+/* display: flex;
+align-items: center; */
+display: none;
+}
+.mobile__icon {
+    background-color: #fff;
+    border: none;
+    margin-right: 30px;
+    outline: none;
+    cursor: pointer;
+}
+.mobile__menu {
+    /* width: 20px;
+    height: 20px; */
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.menu__line {
+    display: block;
+height: 2px;
+border-radius: 40px;
+background-color: rgb(24, 22, 22);
+width: 16px;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+@media (max-width: 1200px) {
+    .header {
+        height: 90px;
+    }
+    .container {
+        max-width: 960px;
+    }
+    .card-foto {
+        width: 85px;
+        height: 85px;
+    }
+    .search__input {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    .link {
+        margin-right: 10px;
+font-size: 14px;
+
+    }
+    .link:last-child {
+        margin-right: 0;
+    }
+    .film__title {
+        font-size: 34px;
+    }
+    .sign-up {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 16px;
+    }
+    .login {
+        padding-left: 45px;
+        padding-right: 45px;
+        font-size: 16px;
+    }
+    .navigation {
+        margin-right: 35px;
+    }
+    .button__grup {
+        display: flex;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 760px;
+    }
+    .navigation {
+        /* margin-right: 30px; */
+        display: none;
+    }
+    .treiler {
+        padding-top: 60px;
+    }
+    .film__title {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .cast {
+        padding-top: 45px;
+        padding-bottom: 55px;
+    }
+    .tabs {
+        margin-bottom: 40px;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    .search__input {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+    .sign-up {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+    .login {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 16px;
+    }
+    .card-foto {
+        width: 100px;
+        height: 100px;
+        /* margin-right: 15px; */
+    }
+    .card {
+        
+        flex-basis: 50%;
+        margin-bottom: 35px;
+        }
+    .treiler__subtitle {
+        margin-bottom: 15px;
+    }
+    .treiler__description {
+        margin-bottom: 20px;
+    }
+    .about__film {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .raiting__counter {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 33px;
+        margin-right: 28px;
+        width: 90px;
+        height: 90px;
+     
+    }
+    .about__text {
+        display: block;
+        margin-bottom: 12px;
+    }
+    .news {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+    .news__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .news-card {
+        
+        flex-basis: 47%;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        height: 80px;
+        padding-right: 30px;
+    }
+    .m__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        left: 0;
+        top: 80px;
+        right: 0;
+        bottom: 0;
+        height: calc(100% - 80px);
+        background: #5671F6;
+    }
+    .m__menu.active {
+        display: flex;
+        padding-top: 129px;
+    }
+    .link {
+        color: #D4D4D4;
+        margin: 0;
+        margin-bottom: 18px;
+        font-size: 18px;
+line-height: 21px;
+    }
+    .link:last-child {
+        margin-bottom: 66px;
+    }
+    
+    .sign-up {
+        background-color: transparent;
+        color: #D4D4D4;
+        border: none;
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 21px;
+
+    }
+    .login {
+        color: #D4D4D4;
+        border: none;
+        margin: 0;
+        font-size: 18px;
+       line-height: 21px;
+    }
+    .button__grup {
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 132px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 104px;
+        margin: 0;
+        border-bottom: 1px solid #D4D4D4;
+    }
+    .search__input {
+        width: 260px;
+        height: 50px;
+        border-radius: 5px;
+        background-image: none;
+        border: none;
+        margin: 0;
+    }
+    .container {
+        max-width: 560px;
+    }
+    .wrapper__treiler {
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+    /* .treiler__video {
+       
+        margin-bottom: 15px;
+    } */
+    .treiler__text {
+        order: -1;
+        margin-bottom: 25px;
+    }
+    .treiler {
+        padding-bottom: 65px;
+    }
+    .cast {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .mobile__buttons {
+        display: block;
+        margin-left: auto;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        padding-left: 28px;
+        height: 80px;
+        padding-right: 28px;
+    }
+    .container {
+        width: 95%;
+    }
+    /* .m__menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    } */
+    .button__grup {
+        display: none;
+    }
+    .search__input {
+      display: none;
+    }
+    .line {
+        display: none;
+    }
+    
+    .treiler {
+        padding-top: 30px;
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-bottom: 70px;
+    }
+    .treiler__text {
+        order: 1;
+        margin-bottom: 0px;
+    }
+    .poster {
+        width: 100%;
+    }
+    .treiler__block {
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .play__text-btn {
+        font-size: 16px;
+     line-height: 19px;
+    }
+    .film__title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .treiler__subtitle {
+        margin-bottom: 26px;
+        font-size: 14px;
+     line-height: 16px;
+    }
+    
+    .treiler__description {
+        font-size: 14px;
+        line-height: 150%;
+        margin-bottom: 40px;
+    }
+    .about__film {
+        margin-bottom: 40px;
+    }
+    .about__text-bold {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .about__text-regular {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .raiting__counter {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        margin-right: 28px;
+        width: 100px;
+        height: 100px;
+    }
+    .cast {
+        padding-top: 74px;
+        padding-bottom: 55px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .tabs {
+        margin-bottom: 45px;
+    }
+    .tabs__bold,.tabs__regular {
+        font-size: 18px;
+      line-height: 21px;
+    }
+    .mobile__buttons {
+        display: block;
+    }
+    .card {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .card-foto {
+        width: 60px;
+        height: 60px;
+        
+    }
+    .card:last-child {
+        margin-bottom: 0;
+    }
+    .news {
+        padding-top: 53px;
+        padding-bottom: 55px;
+        padding-left: 28px;
+    }
+    .news__title {
+        margin-bottom: 40px;
+    }
+    .news-card {
+        flex-basis: 100%;
+    }
+}
